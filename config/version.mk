@@ -43,3 +43,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.lineage.display.version=$(LINEAGE_DISPLAY_VERSION) \
     ro.lineage.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
     ro.lineage.releasetype=$(LINEAGE_BUILDTYPE)
+
+# ArjunaOS version properties
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.arjunaos.version=$(LINEAGE_VERSION) \
+    ro.arjunaos.display.version=$(LINEAGE_DISPLAY_VERSION) \
+    ro.arjunaos.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
+    ro.arjunaos.releasetype=$(LINEAGE_BUILDTYPE)
